@@ -24,6 +24,17 @@
 }
 
 body {
+    font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Herdar, por padrão o navegador pega o azul, eu tiro o azul e em algum momento eu pego o pai dele e implemento a color*/
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
 }
