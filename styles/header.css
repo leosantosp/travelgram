@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    max-width: 592px;
+    
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+.profile h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+.profile p {
+    font: var(--text-sm);
+}
+
+
+.info {
+    list-style: none;
+    width: 280px;
+}
+
+.info li {
+    display: flex;
+    column-gap: 8px;
+}
+
+.info li:not(:last-of-type){
+    margin-bottom: 16px;
+}
